@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500&display=swap');
+.home{
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 1rem;
+    /* background-color: #141414; */
+}
+.homeGap{
+    /* background-color: #181818; */
+    height: 9rem;
+}
+.autoText{
+    padding-top: 10rem;
+    font-size: 1.8vw;
+    color: white;
+    display: flex;
+    gap: 0.5rem;
+    font-family: 'Kodchasan', sans-serif;
+}
+.typewriter{
+    color: #ff6600;
+}
+.smallAboutme{
+    /* background-color: #181818; */
+    padding-bottom: 15rem;
+    font-size: 1.8vw;
+    color: white;
+    font-family: 'Kodchasan', sans-serif;
+}
+.homeMain{
+    display: flex;
+    justify-content: space-around;
+}
+.mainPic{
+    width: 75%;
+    z-index: 10;
+    /* background-color: #181818; */
+}
+.profilePic{
+    text-align: center;
+    width: 45%;
+    position: relative;
+}
+.colorBack{
+    position: absolute;
+    left: 9%;
+    width: 100%;
+    top: -5.5%;
+}
+.bottomWave{
+    width: 100%;
+    margin-top: -4rem;
+    z-index: 30;
+}
+.botwave{
+    width: 100%;
+    height: 80px;
+}
+
+@media only screen and (max-width: 1492px) {
+    .bottomWave{
+        margin-top: -12rem;
+    }
+}
+@media only screen and (max-width: 1374px) {
+    .bottomWave{
+        margin-top: -7rem;
+    }
+    .autoText{
+        padding-top: 5rem;
+        font-size: 3vw;
+    }
+    .smallAboutme{
+        font-size: 3vw;
+        padding-bottom: 2rem;
+    }
+    .homeMain{
+        display: block;
+    }
+    .profilePic{
+        text-align: center;
+        width: 70%;
+        padding-left: 11vw;
+        position: relative;
+    }
+}
+@media only screen and (max-width: 1164px) {
+    .homeMain{
+        display: block;
+    }
+    .autoText{
+        padding-top: 2rem;
+        font-size: 3vw;
+    }
+    .smallAboutme{
+        font-size: 3vw;
+        padding-bottom: 2rem;
+    }
+    .profilePic{
+        text-align: center;
+        width: 70%;
+        padding-left: 11vw;
+        position: relative;
+    }
+    .bottomWave{
+        margin-top: -7rem;
+    }
+}
+
+@media only screen and (max-width: 994px) {
+    .bottomWave{
+        margin-top: -7rem;
+    }
+}

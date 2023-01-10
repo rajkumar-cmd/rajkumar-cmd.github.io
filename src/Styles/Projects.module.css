@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500&display=swap');
+.projects{
+    background-color: #181818;
+}
+.wave{
+    width: 100%;
+}
+.mainText{
+    color: aliceblue;
+    font-family: 'Kodchasan', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+.mainProjectText{
+    color: aliceblue;
+    font-family: 'Kodchasan', sans-serif;
+    text-align: center;
+    text-decoration:underline;
+    font-size: 2rem;
+}
+.subProjectText{
+    color: aliceblue;
+    font-family: 'Kodchasan', sans-serif;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.tabtop{
+    font-size: xx-large;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: auto;
+}
+.tabtop:hover{
+    color: #ff6600;
+    text-decoration: underline;
+}

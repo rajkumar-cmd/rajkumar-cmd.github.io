@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500&display=swap');
+.AboutMe{
+    background-color: #ff6600;
+    height: max-content;
+    z-index: 30;
+    padding-top: 5rem;
+    margin-top: -0.4rem;
+    text-align: center;
+    font-family: 'Kodchasan', sans-serif;
+}
+.mainText{
+    font-size: 3rem;
+}
+.main{
+    position: relative;
+}
+.image{
+    position: absolute;
+    z-index: 10;
+    bottom: 49vh;
+    left: 55vw;
+}

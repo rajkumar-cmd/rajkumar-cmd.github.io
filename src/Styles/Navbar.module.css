@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500&display=swap');
+.portfolioLogo{
+    font-size: 1.5vw;
+    font-family: 'Kodchasan', sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1.6rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    /* background-color: #ff6600; */
+    background-color: black;
+    color: #ff6600;
+    z-index: 10;
+}
+.home{
+    background-color: black;
+    color: #ff6600;
+    padding: 0.5rem;
+    border-radius: 100px;
+    box-shadow: rgba(255, 102, 0, 0.705) 0px 1px 4px;
+    cursor: pointer;
+    width: 9rem;
+    height: 2rem;
+    text-align: center;
+}
+.home:hover{
+    background-color: #ff6600;
+    color: black;
+}
+.about{
+    background-color: black;
+    color: #ff6600;
+    padding: 0.5rem;
+    border-radius: 100px;
+    box-shadow: rgba(255, 102, 0, 0.705) 0px 1px 4px;
+    cursor: pointer;
+    width: 9rem;
+    height: 2rem;
+    text-align: center;
+}
+.about:hover{
+    background-color: #ff6600;
+    color: black;
+}
+.skills{
+    background-color: black;
+    color: #ff6600;
+    padding: 0.5rem;
+    border-radius: 100px;
+    box-shadow: rgba(255, 102, 0, 0.705) 0px 1px 4px;
+    cursor: pointer;
+    width: 9rem;
+    height: 2rem;
+    text-align: center;
+}
+.skills:hover{
+    background-color: #ff6600;
+    color: black;
+}
+.projects{
+    background-color: black;
+    color: #ff6600;
+    padding: 0.5rem;
+    border-radius: 100px;
+    box-shadow: rgba(255, 102, 0, 0.705) 0px 1px 4px;
+    cursor: pointer;
+    width: 9rem;
+    height: 2rem;
+    text-align: center;
+}
+.projects:hover{
+    background-color: #ff6600;
+    color: black;
+}
+.contact{
+    background-color: black;
+    color: #ff6600;
+    padding: 0.5rem;
+    border-radius: 100px;
+    box-shadow: rgba(255, 102, 0, 0.705) 0px 1px 4px;
+    cursor: pointer;
+    width: 9rem;
+    height: 2rem;
+    text-align: center;
+}
+.contact:hover{
+    background-color: #ff6600;
+    color: black;
+}
+.resume{
+    background-color: black;
+    color: #ff6600;
+    padding: 0.5rem;
+    border-radius: 100px;
+    box-shadow: rgba(255, 102, 0, 0.705) 0px 1px 4px;
+    cursor: pointer;
+    width: 9rem;
+    height: 2rem;
+    text-align: center;
+}
+.resume:hover{
+    background-color: #ff6600;
+    color: black;
+}
+.wave{
+    width: 100%;
+    height: 40px;
+}
+.navbarButton{
+    display: flex;
+    gap: 10px;
+    /* padding-top: 1.2rem; */
+    font-size:x-large;
+    font-family: 'Concert One', cursive;
+}
+@media only screen and (max-width: 1850px) {
+    .wave{
+        width: 100%;
+        /* margin-top: -10rem; */
+    }
+}
+@media only screen and (max-width: 1470px) {
+    .navbarButton{
+        display: none;
+    }
+    .main{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        background-color: black;
+    }
+}
+@media only screen and (max-width: 1374px) {
+    .navbarButton{
+        display: none;
+    }
+    .main{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        background-color: black;
+    }
+    .wave{
+        width: 100%;
+        /* margin-top: -8rem; */
+    }
+}
+@media only screen and (max-width: 1110px) {
+    .navbarButton{
+        display: none;
+    }
+    .main{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        background-color: black;
+    }
+    .wave{
+        width: 100%;
+        /* margin-top: -7rem; */
+    }
+    .portfolioLogo{
+        font-size: 3vw;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .navbarButton{
+        display: none;
+    }
+    .main{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        background-color: black;
+    }
+    .wave{
+        width: 100%;
+        /* margin-top: -10rem; */
+    }
+}
+@media only screen and (max-width: 852px) {
+    .navbarButton{
+        display: none;
+    }
+    .main{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        background-color: black;
+    }
+    .wave{
+        width: 100%;
+        /* height: 80px; */
+        /* margin-top: -4rem; */
+    }
+}
+@media only screen and (max-width: 668px) {
+    .navbarButton{
+        display: none;
+    }
+    .main{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        background-color:black;
+    }
+    .portfolioLogo{
+        font-size: 4vw;
+    }
+    .wave{
+        width: 100%;
+        /* margin-top: -3rem; */
+    }
+}
+@media only screen and (max-width: 620px) {
+    .navbarButton{
+        display: none;
+    }
+    .main{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        background-color:black;
+    }
+    .portfolioLogo{
+        font-size: 4vw;
+    }
+    .wave{
+        width: 100%;
+        height: 20px;
+        /* margin-top: -3rem; */
+    }
+}
+@media only screen and (max-width: 516px) {
+    .navbarButton{
+        display: none;
+    }
+    .main{
+        background-color:black;
+    }
+    .portfolioLogo{
+        font-size: 5vw;
+    }
+    .wave{
+        width: 100%;
+        /* margin-top: -2rem; */
+    }
+}
