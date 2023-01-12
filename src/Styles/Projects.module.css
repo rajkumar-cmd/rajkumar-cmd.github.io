@@ -2,28 +2,30 @@
 .projects{
     background-color: #181818;
 }
-.wave{
-    width: 100%;
-}
 .mainText{
     color: aliceblue;
     font-family: 'Kodchasan', sans-serif;
     text-align: center;
     font-size: 3rem;
-    margin-bottom: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 .mainProjectText{
-    color: aliceblue;
+    color: #ff6600;
     font-family: 'Kodchasan', sans-serif;
     text-align: center;
     text-decoration:underline;
     font-size: 2rem;
 }
+.subProjectTextMain{
+    color: #ff6600;
+}
 .subProjectText{
     color: aliceblue;
     font-family: 'Kodchasan', sans-serif;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     font-size: 1.5rem;
     margin-left: 5rem;
     margin-right: 5rem;
@@ -40,3 +42,49 @@
     color: #ff6600;
     text-decoration: underline;
 }
+.linkMain{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.linkMainButton{
+    cursor: pointer;
+    width: 10vw;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1rem;
+    color: #ff6600;
+    border: 2px solid #ff6600;
+}
+.linkMainButton:hover{
+    background-color: #ff6600;
+    color: #ffffff;
+}
+.firstPro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+.secondPro{
+    display: flex;
+    flex-wrap:wrap-reverse;
+    justify-content: space-around;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.firstleftText{
+    margin-top: 8rem;
+}
+.firstrightText{
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 1779px) {
+    .firstPro{
+        display: block;
+    }
+  }

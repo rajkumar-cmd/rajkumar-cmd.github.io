@@ -1,6 +1,5 @@
 import React from 'react'
 import Style from "../Styles/Navbar.module.css"
-// import wave from "../assets/wave.webp"
 import wave from "../assets/wave.webp"
 
 const Navbar = () => {

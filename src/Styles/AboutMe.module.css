@@ -9,7 +9,8 @@
     font-family: 'Kodchasan', sans-serif;
 }
 .mainText{
-    font-size: 3rem;
+    font-size: 2rem;
+    padding-bottom: 2rem;
 }
 .main{
     position: relative;
@@ -19,4 +20,27 @@
     z-index: 10;
     bottom: 49vh;
     left: 55vw;
+}
+.mainTextTop{
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.mainTextTopSmall{
+    font-size: x-large;
+    padding-right: 15rem;
+    padding-left: 15rem;
+    padding-bottom:3rem;
+    padding-top: 1rem;
+}
+.gitcal{
+    border-radius: 100px;
+    padding: 2px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #ff6600;
+    color: black;
+}
+.gitcal:hover{
+    background-color: black;
+    color: #ff6600;
 }

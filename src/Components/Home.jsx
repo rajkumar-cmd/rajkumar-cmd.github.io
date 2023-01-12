@@ -33,7 +33,8 @@ const Home = () => {
                         <div className={style.smallAboutme}>
                             Love to build from scratch <br />
                             Has worked on many projects <br />
-                            And love to be a part of your team.
+                            And love to be a part of your team <br />
+                            Ready to move if asked.
                         </div>
                     </div>
                     <div className={style.profilePic}>
