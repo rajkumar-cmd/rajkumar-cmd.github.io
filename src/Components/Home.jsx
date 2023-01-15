@@ -10,10 +10,10 @@ const Home = () => {
     return (
         <>
             <ParticleBackground />
-            <div className={style.home}>
+            <div className={style.home} id="Home">
                 <div className={style.homeGap}></div>
                 <div className={style.homeMain}>
-                    <div>
+                    <div className={style.fullText}>
                         <div className={style.autoText}>
                             I am
                             <div className={style.typewriter}>

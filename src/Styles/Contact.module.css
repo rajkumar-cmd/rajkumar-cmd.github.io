@@ -1,0 +1,51 @@
+.contact{
+    z-index: 10;
+    background-color: #ff6600;
+}
+.contactText{
+    font-family: 'Kodchasan';
+    color:#181818;
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.mainContact{
+    position: relative;
+}
+.wave{
+    position: absolute;
+    bottom: 10px;
+}
+.contactTextBase{
+    font-family: 'Kodchasan';
+    color:#181818;
+    text-align: center;
+    font-size: 1rem;
+}
+.input{
+    border-radius: 10px;
+    padding: 1rem;
+}
+.form{
+    width: 30%;
+}
+.contactForm{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+@media only screen and (max-width: 414px) {
+    .contactText{
+        font-size: 2rem;
+    }
+    .contactTextBase{
+        width: 300%;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .contactForm{
+        justify-content:stretch;
+    }
+}

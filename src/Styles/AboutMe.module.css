@@ -3,7 +3,7 @@
     background-color: #ff6600;
     height: max-content;
     z-index: 30;
-    padding-top: 5rem;
+    padding-top: 10rem;
     margin-top: -0.4rem;
     text-align: center;
     font-family: 'Kodchasan', sans-serif;
@@ -43,4 +43,78 @@
 .gitcal:hover{
     background-color: black;
     color: #ff6600;
+}
+.AboutMeDetailsEdu{
+    width: 90%;
+    margin: auto;
+}
+.mainGit{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gittop{
+    text-align: "center";
+    width: 100%;
+}
+.calgit{
+    display: "flex";
+    justify-content: "center";
+    padding-bottom: 5rem;
+    width: 100%;
+    margin: auto;
+}
+.logos{
+    width: 20%;
+}
+@media only screen and (max-width: 414px) {
+    .mainTextTop{
+        font-size: 1.5rem;
+    }
+    .AboutMe{
+        padding-top: 2rem;
+    }
+    .mainTextTopSmall{
+        font-size:1rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        padding-bottom:3rem;
+        padding-top: 1rem;
+    }
+    .AboutMeDetailsEdu{
+        width: 90%;
+        margin: auto;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        font-size: 0.8rem;
+    }
+    .gittop{
+        /* text-align: "center"; */
+        width: 100%;
+        margin: auto;
+    }
+    .mainText{
+        font-size: 1.3rem;
+    }
+    .gitstatsthree{
+        width: 90%;
+        margin: auto;
+    }
+    .gitstatstwo{
+        display: none;
+    }
+    .gitstatsone{
+        width: 40%;
+        margin: auto;
+    }
+    .calgit{
+        display: "flex";
+        justify-content: "center";
+        padding-bottom: 2rem;
+        width: 90%;
+        margin: auto;
+    }
+    .logos{
+        width: 20%;
+        margin: auto;
+    }
 }

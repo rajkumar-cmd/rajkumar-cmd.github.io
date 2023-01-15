@@ -14,6 +14,8 @@ import Tablet from "../assets/tablet1.mp4"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Divider from '@mui/material/Divider';
+import Narvidesk from "../assets/narvidesk.png";
+import Narvimob from "../assets/narvimobile.png";
 
 const theme = createTheme({
   palette: {
@@ -68,34 +70,43 @@ export default function ProjectOne() {
   };
 
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box className={style.main}>
       <ThemeProvider theme={theme}>
         <Box sx={{ borderBottom: '1px solid #ffffff' }}>
           <Tabs centered textColor="primary" indicatorColor="primary" value={value} onChange={handleChange} aria-label="basic tabs example">
-            <Tab icon={<Icon as={AiOutlineDesktop} boxSize={30} />} sx={{ color: 'background.paper' }} label="Laptop View" {...a11yProps(1)} />
-            <Tab icon={<Icon as={MdTabletMac} boxSize={30} />} sx={{ color: 'background.paper' }} label="Tablet View" {...a11yProps(2)} />
-            <Tab icon={<Icon as={MdOutlinePhoneAndroid} boxSize={30} />} sx={{ color: 'background.paper' }} label="Smart Phone View" {...a11yProps(0)} />
+            <Tab icon={<Icon as={AiOutlineDesktop} boxSize={30} />} sx={{ color: 'background.paper' }} label="Laptop" {...a11yProps(1)} />
+            <Tab icon={<Icon as={MdTabletMac} boxSize={30} />} sx={{ color: 'background.paper' }} label="Tablet" {...a11yProps(2)} />
+            <Tab icon={<Icon as={MdOutlinePhoneAndroid} boxSize={30} />} sx={{ color: 'background.paper' }} label="SmartPhone" {...a11yProps(0)} />
           </Tabs>
         </Box>
         <TabPanel value={value} index={0}>
           <div className={style.video} data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
-            <video width="700vw" height="400vw" autoPlay muted loop>
+            <video className={style.videoinner} autoPlay muted loop>
               <source src={Laptop} type="video/mp4" />
             </video>
+          </div>
+          <div className={style.imginner}>
+            <img className={style.imginnerand} src={Narvidesk} alt="" />
           </div>
         </TabPanel>
         <TabPanel value={value} index={1}>
           <div className={style.video} data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
-            <video width="700vw" height="400vw" autoPlay muted loop>
+            <video className={style.videoinner} autoPlay muted loop>
               <source src={Tablet} type="video/mp4" />
             </video>
+          </div>
+          <div className={style.imginner}>
+            <img className={style.imginnerand} src={Narvimob} alt="" />
           </div>
         </TabPanel>
         <TabPanel value={value} index={2} data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out">
           <div className={style.video}>
-            <video width="700vw" height="400vw" autoPlay muted loop>
-              <source href="https://drive.google.com/file/d/1_KzTiM9KW8BVGMlsmO5qxY_YDM4VvcCn/view?usp=sharing" type="video/mp4" />
+            <video className={style.videoinner} autoPlay muted loop>
+              <source src={Tablet} type="video/mp4" />
             </video>
+          </div>
+          <div className={style.imginner}>
+            <img className={style.imginnerand} src={Narvimob} alt="" />
           </div>
         </TabPanel>
       </ThemeProvider>

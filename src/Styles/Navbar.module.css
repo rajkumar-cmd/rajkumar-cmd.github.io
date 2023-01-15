@@ -4,6 +4,9 @@
     font-size: 1.5vw;
     font-family: 'Kodchasan', sans-serif;
 }
+.mobile{
+    display: none;
+}
 .main{
     display: flex;
     justify-content: space-between;
@@ -121,6 +124,9 @@
     .wave{
         width: 100%;
         /* margin-top: -10rem; */
+    }
+    .mobile{
+        display: block;
     }
 }
 @media only screen and (max-width: 1470px) {
@@ -241,5 +247,19 @@
     .wave{
         width: 100%;
         /* margin-top: -2rem; */
+    }
+}
+@media only screen and (max-width: 414px) {
+    .main{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        /* background-color: #ff6600; */
+        background-color: black;
+        color: #ff6600;
+        z-index: 10;
     }
 }

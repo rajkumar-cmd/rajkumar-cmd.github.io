@@ -1,3 +1,29 @@
 .video{
     text-align: center;
 }
+.main{
+    width: 100%;
+}
+.videoinner{
+    width: 40vw;
+    height: 20vw;
+    margin: auto;
+}
+.imginner{
+    display: none;
+}
+@media only screen and (max-width: 414px) {
+    .main{
+        width: 100%;
+        margin: auto;
+    }
+    .video{
+        display: none;
+    }
+    .imginner{
+        display: block;
+    }
+    .imginnerand{
+        width: 100%;
+    }
+}

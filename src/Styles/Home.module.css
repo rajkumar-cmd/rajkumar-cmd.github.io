@@ -107,8 +107,31 @@
     }
 }
 
-@media only screen and (max-width: 994px) {
+@media only screen and (max-width: 414px) {
     .bottomWave{
         margin-top: -7rem;
+    }
+    .smallAboutme{
+        font-size: 1rem;
+    }
+    .autoText{
+        font-size: 1rem;
+    }
+    .home{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .profilePic{
+        text-align: center;
+        width: 100%;
+        padding-left: 0vw;
+        position: relative;
+    }
+    .mainPic{
+        width: 80%;
+    }
+    .homeGap{
+        /* background-color: #181818; */
+        height: 5rem;
     }
 }

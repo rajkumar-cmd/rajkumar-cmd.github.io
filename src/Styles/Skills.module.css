@@ -29,3 +29,32 @@
     width: 50%;
     height: 5rem;
 }
+.skillBig{
+    width: 70%;
+    margin: auto;
+}
+.skillMobile{
+    display: none;
+}
+@media only screen and (max-width: 414px) {
+    .skillBig{
+        display: none;
+    }
+    .skillMobile{
+        display: block;
+        display: flex;
+        flex-direction: column;
+    }
+    .skillMobileMain{
+        width: 20%;
+        margin: auto;
+    }
+    .skillMobileFront{
+        width: 80%;
+        margin: auto;
+    }
+    .skillMobileBack{
+        width: 80%;
+        margin: auto;
+    }
+}

@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500&display=swap');
 .projects{
     background-color: #181818;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
 }
 .mainText{
     color: aliceblue;
@@ -75,6 +77,15 @@
     justify-content: space-around;
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.fouthPro{
+    display: flex;
+    flex-wrap:wrap-reverse;
+    justify-content: space-around;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 .firstleftText{
     margin-top: 8rem;
@@ -82,9 +93,37 @@
 .firstrightText{
     margin-top: 2rem;
 }
-
 @media only screen and (max-width: 1779px) {
     .firstPro{
         display: block;
     }
   }
+
+@media only screen and (max-width: 414px) {
+    .mainText{
+        font-size: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .projects{
+        padding-top: 2rem;
+    }
+    .mainProjectText{
+        font-size: 1.3rem;
+    }
+    .firstleftText{
+        margin-top: 4rem;
+    }
+    .firstrightText{
+        margin-top: 2rem;
+    }
+    .subProjectText{
+        font-size: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .linkMainButton{
+        width: 30vw;
+        padding: 0.5rem;
+    }
+}
