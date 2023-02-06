@@ -82,6 +82,7 @@
 }
 @media only screen and (max-width: 414px) {
     .contactText{
+        padding-top: 3rem;
         font-size: 2rem;
     }
     .contactTextBase{

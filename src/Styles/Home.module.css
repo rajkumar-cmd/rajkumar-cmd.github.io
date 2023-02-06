@@ -81,8 +81,7 @@
 
 @media only screen and (max-width: 1492px) {
     .autoText{
-        padding-top: 1rem;
-        font-size: 3vw;
+        padding-top: 10rem;
     }
     .bottomWave{
         margin-top: -12rem;

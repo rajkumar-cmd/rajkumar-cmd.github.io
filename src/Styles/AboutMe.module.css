@@ -229,19 +229,22 @@
         width: 20%;
         margin: auto;
     }
+    .mainTextAbout{
+        margin-bottom: 0;
+    }
 }
 @media only screen and (max-width: 470px) {
     .mainTextTop{
         font-size: 1.5rem;
     }
     .AboutMe{
-        padding-top: 2rem;
+        padding-top: 4rem;
     }
     .mainTextTopSmall{
         font-size:1rem;
         padding-right: 1.5rem;
         padding-left: 1.5rem;
-        padding-bottom:3rem;
+        padding-bottom:1.5rem;
         padding-top: 1rem;
     }
     .AboutMeDetailsEdu{
@@ -259,6 +262,7 @@
     }
     .mainText{
         font-size: 1.3rem;
+        padding-bottom: 1rem;
     }
     .gitstatsthree{
         width: 90%;

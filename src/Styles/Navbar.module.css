@@ -111,6 +111,9 @@
     background-color: #ff7621;
     color: black;
 }
+.resume:hover .anchor{
+    color: black;
+}
 .wave{
     width: 100%;
     height: 150px;
@@ -122,7 +125,22 @@
     font-size:x-large;
     font-family: 'Concert One', cursive;
 }
-
+.anchor{
+    text-decoration: none;
+    color: #ff7621;
+}
+@media only screen and (max-width: 1374px) {
+    .portfolioLogo{
+        font-size: 1.5rem;
+        font-family: 'Kodchasan', sans-serif;
+    }
+    .navbarButton{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}
 @media only screen and (max-width: 1180px) {
     .portfolioLogo{
         font-size: 1.5rem;

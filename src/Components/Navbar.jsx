@@ -3,9 +3,13 @@ import Style from "../Styles/Navbar.module.css"
 // import wave from "../assets/wave.png"
 import NavbarMobile from './NavbarMobile'
 import * as Scroll from 'react-scroll';
+import Rajkumar_Pradhan_Resume from "../assets/Rajkumar_Pradhan_Resume.pdf"
 
 const Navbar = () => {
   let Link = Scroll.Link;
+  const open=()=>{
+    window.open("https://drive.google.com/file/d/1CXpn4XyaG3I4gXrwoEC7FHjvbD8EQJzz/view?usp=sharing","_blank");
+  }
   return (
     <div>
       <div className={Style.main}>
@@ -39,8 +43,8 @@ const Navbar = () => {
               <div>Contact</div>
             </div>
           </Link>
-          <div className={Style.resume}>
-              <div>Resume</div>
+          <div className={Style.resume} onClick={open}>
+              <div><a href={Rajkumar_Pradhan_Resume} download className={Style.anchor}>Resume</a></div>
             </div>
           </div>
         </div>
