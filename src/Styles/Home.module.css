@@ -7,10 +7,14 @@
 }
 .homeGap{
     /* background-color: #181818; */
-    height: 9rem;
+    height: 3rem;
+}
+.mainProfilePic{
+    width: 80%;
+    margin-left: 5%;
 }
 .autoText{
-    padding-top: 10rem;
+    padding-top: 15rem;
     font-size: 1.8vw;
     color: white;
     display: flex;
@@ -18,7 +22,7 @@
     font-family: 'Kodchasan', sans-serif;
 }
 .typewriter{
-    color: #ff6600;
+    color: #ff7621;
 }
 .smallAboutme{
     /* background-color: #181818; */
@@ -49,15 +53,37 @@
 }
 .bottomWave{
     width: 100%;
-    margin-top: -4rem;
+    margin-top: -8.3rem;
     z-index: 30;
+    image-rendering: auto;
 }
 .botwave{
     width: 100%;
-    height: 80px;
+    /* height: 120px; */
+}
+.buttonAboutme{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.buttonAboutme1{
+    cursor: pointer;
+}
+.buttonAboutme2{
+    cursor: pointer;
+}
+.buttonAboutme1:hover{
+    color: #ff7621;
+}
+.buttonAboutme2:hover{
+    color: #ff7621;
 }
 
 @media only screen and (max-width: 1492px) {
+    .autoText{
+        padding-top: 1rem;
+        font-size: 3vw;
+    }
     .bottomWave{
         margin-top: -12rem;
     }
@@ -83,6 +109,9 @@
         padding-left: 11vw;
         position: relative;
     }
+    .fullText{
+        padding-top: 3rem;
+    }
 }
 @media only screen and (max-width: 1164px) {
     .homeMain{
@@ -106,13 +135,71 @@
         margin-top: -7rem;
     }
 }
-
+@media only screen and (max-width: 1180px) {
+    .bottomWave{
+        margin-top: -7rem;
+    }
+    .smallAboutme{
+        font-size: 2rem;
+        padding-left: 1rem;
+    }
+    .autoText{
+        font-size: 2rem;
+        padding-left: 1rem;
+    }
+    .home{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .profilePic{
+        text-align: center;
+        width: 90%;
+        padding-left: 0vw;
+        position: relative;
+    }
+    .mainPic{
+        width: 70%;
+    }
+    .homeGap{
+        /* background-color: #181818; */
+        height: 5rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .bottomWave{
+        margin-top: -7rem;
+    }
+    .smallAboutme{
+        font-size: 1.5rem;
+    }
+    .autoText{
+        font-size: 1.5rem;
+    }
+    .homeGap{
+        height: 0rem;
+    }
+    .home{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .profilePic{
+        text-align: center;
+        width: 80%;
+        padding-left: 10vw;
+        position: relative;
+    }
+    .mainPic{
+        width: 80%;
+        padding-bottom: 3.5rem;
+    }
+}
 @media only screen and (max-width: 414px) {
     .bottomWave{
         margin-top: -7rem;
     }
     .smallAboutme{
         font-size: 1rem;
+        padding-bottom: 0;
     }
     .autoText{
         font-size: 1rem;
@@ -123,8 +210,9 @@
     }
     .profilePic{
         text-align: center;
-        width: 100%;
+        width: 90%;
         padding-left: 0vw;
+        padding-bottom: 2.5rem;
         position: relative;
     }
     .mainPic{
@@ -132,6 +220,6 @@
     }
     .homeGap{
         /* background-color: #181818; */
-        height: 5rem;
+        height: 1rem;
     }
 }

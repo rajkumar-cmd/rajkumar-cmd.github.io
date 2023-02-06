@@ -10,6 +10,21 @@
     padding-bottom: 2rem;
     padding-top: 2rem;
 }
+.send{
+    background-color: black;
+    color: #ff6600;
+    padding: 1rem;
+    border-radius: 10px;
+    font-family: 'Kodchasan';
+    font-size: large;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.send:hover{
+    background-color: #ff6600;
+    color: black;
+    border: 3px solid black;
+}
 .mainContact{
     position: relative;
 }
@@ -18,6 +33,12 @@
     bottom: 10px;
 }
 .contactTextBase{
+    font-family: 'Kodchasan';
+    color:#181818;
+    text-align: center;
+    font-size: 1rem;
+}
+.contactTextBase1{
     font-family: 'Kodchasan';
     color:#181818;
     text-align: center;
@@ -33,19 +54,50 @@
 .contactForm{
     display: flex;
     gap: 3rem;
+    padding-bottom: 3rem;
     flex-wrap: wrap-reverse;
     justify-content: center;
+}
+@media only screen and (max-width: 1180px) {
+    .contactText{
+        font-size: 2rem;
+    }
+    .contactTextBase{
+        width: 95%;
+        padding-left: 1rem;
+        /* padding-right: 4.5rem; */
+    }
+    .contactTextBase1{
+        width: 90%;
+        padding-left: 1rem;
+        /* padding-right: 4.5rem; */
+    }
+    .contactForm{
+        display: block;
+        /* justify-content:stretch; */
+    }
+    .form{
+        width: 98%;
+    }
 }
 @media only screen and (max-width: 414px) {
     .contactText{
         font-size: 2rem;
     }
     .contactTextBase{
-        width: 300%;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        width: 95%;
+        /* padding-left: 1.5rem; */
+        /* padding-right: 1.5rem; */
+    }
+    .contactTextBase1{
+        width: 95%;
+        /* padding-left: 1.5rem; */
+        /* margin-right: 1.5rem; */
     }
     .contactForm{
         justify-content:stretch;
+    }
+    .form{
+        width: 98%;
     }
 }

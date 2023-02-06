@@ -7,11 +7,9 @@ import { BiMessageDetail } from "react-icons/bi"
 import { HiOutlineMail } from "react-icons/hi"
 import { BsFillTelephoneFill, BsLinkedin, BsGithub, BsFillPersonFill } from "react-icons/bs"
 import TextField from '@mui/material/TextField';
-import { grey } from '@mui/material/colors';
-import Wave from 'react-wavify'
+// import Wave from 'react-wavify'
 
 const Contact = () => {
-    const [value, setValue] = React.useState([]);
     const [name, setName] = React.useState("");
     const [email, setEmail] = React.useState("");
     const [para, setPara] = React.useState("");
@@ -37,25 +35,7 @@ const Contact = () => {
                     Contact
                 </h1>
                 <div className={style.contactForm}>
-                    <div className={style.form}>
-                        <form className={style.contactTextBase}>
-                            <div style={{ display: "flex" }}>
-                                <Icon style={{ paddingTop: "0.8rem" }} as={BsFillPersonFill} boxSize={30} />
-                                <TextField color='grey' fullWidth id="outlined-basic" label="Your Name" type="text" value={name} onChange={(e) => handleName(e)} variant="outlined" />
-                            </div>
-                            <br />
-                            <div style={{ display: "flex" }}>
-                                <Icon style={{ paddingTop: "0.8rem" }} as={HiOutlineMail} boxSize={30} />
-                                <TextField color='grey' fullWidth id="outlined-basic" label="Your Email" type="email" value={email} onChange={(e) => handleEmail(e)} variant="outlined" />
-                            </div>
-                            <br />
-                            <div style={{ display: "flex" }}>
-                                <Icon style={{ paddingTop: "0.8rem" }} as={BiMessageDetail} boxSize={30} />
-                                <TextField color='grey' fullWidth id="outlined-multiline-static" rows={4} label="Your Message" type="text" value={para} onChange={(e) => handlePara(e)} variant="outlined" multiline />
-                            </div>
-                        </form>
-                    </div>
-                    <div className={style.contactTextBase}>
+                <div className={style.contactTextBase1}>
                         <div style={{ display: "flex", gap: "0.5rem" }}>
                             <Icon as={GrMail} boxSize={30} />
                             <h3>pradhan.rajkumar.1999@gmail.com</h3>
@@ -86,10 +66,29 @@ const Contact = () => {
                         </div>
                         <br />
                     </div>
+                    <div className={style.form}>
+                        <form className={style.contactTextBase}>
+                            <div style={{ display: "flex" }}>
+                                <Icon style={{ paddingTop: "0.8rem" }} as={BsFillPersonFill} boxSize={30} />
+                                <TextField color='grey' fullWidth id="outlined-basic" label="Your Name" type="text" value={name} onChange={(e) => handleName(e)} variant="outlined" />
+                            </div>
+                            <br />
+                            <div style={{ display: "flex" }}>
+                                <Icon style={{ paddingTop: "0.8rem" }} as={HiOutlineMail} boxSize={30} />
+                                <TextField color='grey' fullWidth id="outlined-basic" label="Your Email" type="email" value={email} onChange={(e) => handleEmail(e)} variant="outlined" />
+                            </div>
+                            <br />
+                            <div style={{ display: "flex" }}>
+                                <Icon style={{ paddingTop: "0.8rem" }} as={BiMessageDetail} boxSize={30} />
+                                <TextField color='grey' fullWidth id="outlined-multiline-static" rows={4} label="Your Message" type="text" value={para} onChange={(e) => handlePara(e)} variant="outlined" multiline />
+                            </div>
+                            <button className={style.send}>Send</button>
+                        </form>
+                    </div>
                 </div>
             </div>
             <div style={{backgroundColor:"#ff6600"}}>
-                <Wave fill='#000'
+                {/* <Wave fill='#000'
                     paused={false}
                     options={{
                         height: 60,
@@ -97,7 +96,7 @@ const Contact = () => {
                         speed: 0.15,
                         points: 4
                     }}
-                />
+                /> */}
             </div>
         </div>
     )

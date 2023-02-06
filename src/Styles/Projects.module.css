@@ -9,7 +9,6 @@
     font-family: 'Kodchasan', sans-serif;
     text-align: center;
     font-size: 3rem;
-    padding-top: 5rem;
     padding-bottom: 5rem;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
@@ -83,23 +82,70 @@
 .fouthPro{
     display: flex;
     flex-wrap:wrap-reverse;
-    justify-content: space-around;
+    justify-content: center;
     padding-left: 2rem;
     padding-right: 2rem;
 }
 .firstleftText{
-    margin-top: 8rem;
+    margin-top: 5rem;
+    text-align: center;
 }
 .firstrightText{
+    text-align: center;
+    width: 38%;
+    overflow: hidden;
+}
+.mobile{
+    display: none;
+}
+.img{
+    width: 100%;
     margin-top: 2rem;
 }
-@media only screen and (max-width: 1779px) {
+@media only screen and (max-width: 1440px) {
     .firstPro{
         display: block;
     }
+    .firstrightText{
+        margin-top: 2rem;
+        width: 100%;
+        margin: auto;
+    }
+    .img{
+        width: 80%;
+    }
   }
-
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 1180px) {
+    .mainText{
+        font-size: 2.5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .projects{
+        padding-top: 2rem;
+    }
+    .mainProjectText{
+        font-size: 2rem;
+    }
+    .firstleftText{
+        margin-top: 4rem;
+    }
+    .firstrightText{
+        margin-top: 2rem;
+        width: 100%;
+        margin: auto;
+    }
+    .subProjectText{
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .linkMainButton{
+        width: 30vw;
+        padding: 0.5rem;
+    }
+}
+@media only screen and (max-width: 768px) {
     .mainText{
         font-size: 2rem;
         padding-top: 2rem;
@@ -116,6 +162,8 @@
     }
     .firstrightText{
         margin-top: 2rem;
+        width: 100%;
+        margin: auto;
     }
     .subProjectText{
         font-size: 1rem;
@@ -125,5 +173,41 @@
     .linkMainButton{
         width: 30vw;
         padding: 0.5rem;
+    }
+    .img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .mainText{
+        font-size: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .projects{
+        padding-top: 2rem;
+    }
+    .mainProjectText{
+        font-size: 1.3rem;
+    }
+    .firstleftText{
+        margin-top: 4rem;
+    }
+    .firstrightText{
+        margin-top: 2rem;
+        width: 100%;
+        margin: auto;
+    }
+    .subProjectText{
+        font-size: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .linkMainButton{
+        width: 30vw;
+        padding: 0.5rem;
+    }
+    .img{
+        width: 100%;
     }
 }

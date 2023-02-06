@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500&display=swap');
 .AboutMe{
-    background-color: #ff6600;
+    background-color: #ff7621;
     height: max-content;
     z-index: 30;
     padding-top: 10rem;
     margin-top: -0.4rem;
     text-align: center;
     font-family: 'Kodchasan', sans-serif;
+    box-shadow: rgba(247, 247, 247, 0.2) 0px 60px 40px -7px;
 }
 .mainText{
-    font-size: 2rem;
-    padding-bottom: 2rem;
-}
-.main{
-    position: relative;
+    font-size: 3rem;
+    padding-bottom: 3rem;
 }
 .image{
     position: absolute;
@@ -23,26 +21,30 @@
 }
 .mainTextTop{
     font-size: 3rem;
-    text-decoration: underline;
 }
 .mainTextTopSmall{
-    font-size: x-large;
+    font-size: 1.5rem;
     padding-right: 15rem;
     padding-left: 15rem;
     padding-bottom:3rem;
     padding-top: 1rem;
+}
+.gitHubDet{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
 .gitcal{
     border-radius: 100px;
     padding: 2px;
     margin-left: 10px;
     cursor: pointer;
-    background-color: #ff6600;
-    color: black;
+    background-color: #ff7621;
+    color: #181818;
 }
 .gitcal:hover{
-    background-color: black;
-    color: #ff6600;
+    background-color: #181818;
+    color: #ff7621;
 }
 .AboutMeDetailsEdu{
     width: 90%;
@@ -66,7 +68,169 @@
 .logos{
     width: 20%;
 }
-@media only screen and (max-width: 414px) {
+.eduMainText{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.eduLogoText{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.eduLoc{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.eduImg{
+    width: 8rem;
+}
+.eduGap{
+    width: 20vw;
+}
+.svgAbout{
+    width: 20rem;
+}
+.svgEdu{
+    width: 40rem;
+    margin-top: 8rem;
+}
+.mainTextAbout{
+    margin-bottom: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.AboutPara{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5rem;
+}
+@media only screen and (max-width: 1180px) {
+    .mainTextTop{
+        font-size: 2.5rem;
+        text-align: center;
+        margin: auto;
+    }
+    .mainText{
+        font-size: 2rem;
+        padding-bottom: 5rem;
+    }
+    .AboutMe{
+        padding-top: 2rem;
+    }
+    .gitHubDet{
+        display: block;
+    }
+    .mainTextTopSmall{
+        font-size: 1.5rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-bottom:3rem;
+        padding-top: 1rem;
+    }
+    .AboutMeDetailsEdu{
+        /* margin: 0; */
+        width: 80%;
+        margin: auto;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        font-size: 1.2rem;
+    }
+    .gittop{
+        /* text-align: "center"; */
+        width: 100%;
+        margin: auto;
+    }
+    .mainText{
+        font-size: 2.3rem;
+    }
+    .gitstatsthree{
+        width: 90%;
+        margin: auto;
+    }
+    .gitstatstwo{
+        display: none;
+    }
+    .gitstatsone{
+        width: 20%;
+        margin: auto;
+    }
+    .calgit{
+        display: "flex";
+        justify-content: "center";
+        padding-bottom: 2rem;
+        width: 90%;
+        margin: auto;
+    }
+    .logos{
+        width: 20%;
+        margin: auto;
+    }
+    .svg{
+        display: none;
+    }
+    .AboutPara{
+        display: block;
+        margin: auto;
+    }
+    .mainTextAbout{
+        margin-bottom: 1rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .mainTextTop{
+        font-size: 1.5rem;
+    }
+    .AboutMe{
+        padding-top: 2rem;
+    }
+    .mainTextTopSmall{
+        font-size:1rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-bottom:3rem;
+        padding-top: 1rem;
+    }
+    .AboutMeDetailsEdu{
+        /* margin: 0; */
+        width: 80%;
+        margin: auto;
+        /* padding-right: 1.5rem; */
+        padding-left: 1.5rem;
+        font-size: 0.8rem;
+    }
+    .gittop{
+        /* text-align: "center"; */
+        width: 100%;
+        margin: auto;
+    }
+    .mainText{
+        font-size: 1.3rem;
+    }
+    .gitstatsthree{
+        width: 70%;
+        margin: auto;
+    }
+    .gitstatstwo{
+        display: none;
+    }
+    .gitstatsone{
+        width: 20%;
+        margin: auto;
+    }
+    .calgit{
+        display: "flex";
+        justify-content: "center";
+        padding-bottom: 2rem;
+        width: 90%;
+        margin: auto;
+    }
+    .logos{
+        width: 20%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 470px) {
     .mainTextTop{
         font-size: 1.5rem;
     }
@@ -81,9 +245,10 @@
         padding-top: 1rem;
     }
     .AboutMeDetailsEdu{
-        width: 90%;
+        /* margin: 0; */
+        width: 80%;
         margin: auto;
-        padding-right: 1.5rem;
+        /* padding-right: 1.5rem; */
         padding-left: 1.5rem;
         font-size: 0.8rem;
     }

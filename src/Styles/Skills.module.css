@@ -1,59 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500&display=swap');
 .main{
     background-color: #fd9550;
-}
-.wave{
-    width: 100%;
-    height: 100px;
-}
-.mainText{
-    color: rgb(0, 0, 0);
-    font-family: 'Kodchasan', sans-serif;
+    padding-top: 2.5rem;
     text-align: center;
-    font-size: 3rem;
-}
-.frontEnd{
-    width: 30%;
-    height: 30rem;
-}
-.backEnd{
-    width: 30%;
-    height: 30rem;
-    padding-top: 2rem;
-}
-.skillsbox{
-    display: flex;
-    justify-content: space-around;
-}
-.skillMain{
-    width: 50%;
-    height: 5rem;
-}
-.skillBig{
-    width: 70%;
     margin: auto;
 }
-.skillMobile{
+.all{
+    width: 80%;
+}
+.mob{
     display: none;
 }
-@media only screen and (max-width: 414px) {
-    .skillBig{
+@media only screen and (max-width: 1085px) {
+    .all{
+       width: 95%;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .all{
         display: none;
     }
-    .skillMobile{
+    .mob{
         display: block;
-        display: flex;
-        flex-direction: column;
-    }
-    .skillMobileMain{
-        width: 20%;
+        width: 60%;
         margin: auto;
+        padding-bottom: 1rem;
     }
-    .skillMobileFront{
-        width: 80%;
-        margin: auto;
+}
+@media only screen and (max-width: 500px) {
+    .all{
+        display: none;
     }
-    .skillMobileBack{
+    .mob{
+        display: block;
         width: 80%;
         margin: auto;
     }

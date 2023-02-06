@@ -1,10 +1,11 @@
 import React from 'react'
 import style from "../Styles/Home.module.css"
 import Typewriter from 'typewriter-effect';
-import profilePhoto from "../assets/profilePic.webp"
 import wave from "../assets/wave1.png"
-import colorBack from "../assets/colorBack.png"
 import ParticleBackground from "./ParticleBackground"
+import profile from "../assets/profile.webp"
+import { Icon } from '@chakra-ui/react'
+import { BsLinkedin, BsGithub} from 'react-icons/bs'
 
 const Home = () => {
     return (
@@ -26,7 +27,7 @@ const Home = () => {
                                             'a Full-stack Web Developer',
                                             'a MERN developer'
                                         ],
-                                    }} 
+                                    }}
                                 />
                             </div>
                         </div>
@@ -34,12 +35,21 @@ const Home = () => {
                             Love to build from scratch <br />
                             Has worked on many projects <br />
                             And love to be a part of your team <br />
-                            Ready to move if asked.
+                            Ready to move if asked. <br />
+                            <div className={style.buttonAboutme}>
+                                <div className={style.buttonAboutme1}>
+                                    <Icon as={BsGithub} paddingTop={"0.5rem"} boxSize={50}/>
+                                </div>
+                                <div className={style.buttonAboutme2}>
+                                    <Icon as={BsLinkedin} paddingTop={"0.5rem"} boxSize={50}/>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className={style.profilePic}>
-                        <img className={style.mainPic} src={profilePhoto} alt="" />
-                        <img className={style.colorBack} src={colorBack} alt="" />
+                        {/* <img className={style.mainPic} src={profilePhoto} alt="" /> */}
+                        {/* <img className={style.colorBack} src={colorBack} alt="" /> */}
+                        <img className={style.mainProfilePic} src={profile} alt="" />
                     </div>
                 </div>
             </div>

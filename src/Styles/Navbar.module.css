@@ -14,14 +14,16 @@
     padding-bottom: 1.6rem;
     padding-left: 5rem;
     padding-right: 5rem;
-    /* background-color: #ff6600; */
-    background-color: black;
-    color: #ff6600;
+    /* background-color: #ff7621; */
+    background-color: rgb(0, 0, 0);
+    color: #ff7621;
     z-index: 10;
+    overflow:hidden;
+    width:inherit;
 }
 .home{
     background-color: black;
-    color: #ff6600;
+    color: #ff7621;
     padding: 0.5rem;
     border-radius: 100px;
     box-shadow: rgba(255, 102, 0, 0.705) 0px 1px 4px;
@@ -31,12 +33,12 @@
     text-align: center;
 }
 .home:hover{
-    background-color: #ff6600;
+    background-color: #ff7621;
     color: black;
 }
 .about{
     background-color: black;
-    color: #ff6600;
+    color: #ff7621;
     padding: 0.5rem;
     border-radius: 100px;
     box-shadow: rgba(255, 102, 0, 0.705) 0px 1px 4px;
@@ -46,12 +48,12 @@
     text-align: center;
 }
 .about:hover{
-    background-color: #ff6600;
+    background-color: #ff7621;
     color: black;
 }
 .skills{
     background-color: black;
-    color: #ff6600;
+    color: #ff7621;
     padding: 0.5rem;
     border-radius: 100px;
     box-shadow: rgba(255, 102, 0, 0.705) 0px 1px 4px;
@@ -61,12 +63,12 @@
     text-align: center;
 }
 .skills:hover{
-    background-color: #ff6600;
+    background-color: #ff7621;
     color: black;
 }
 .projects{
     background-color: black;
-    color: #ff6600;
+    color: #ff7621;
     padding: 0.5rem;
     border-radius: 100px;
     box-shadow: rgba(255, 102, 0, 0.705) 0px 1px 4px;
@@ -76,12 +78,12 @@
     text-align: center;
 }
 .projects:hover{
-    background-color: #ff6600;
+    background-color: #ff7621;
     color: black;
 }
 .contact{
     background-color: black;
-    color: #ff6600;
+    color: #ff7621;
     padding: 0.5rem;
     border-radius: 100px;
     box-shadow: rgba(255, 102, 0, 0.705) 0px 1px 4px;
@@ -91,12 +93,12 @@
     text-align: center;
 }
 .contact:hover{
-    background-color: #ff6600;
+    background-color: #ff7621;
     color: black;
 }
 .resume{
     background-color: black;
-    color: #ff6600;
+    color: #ff7621;
     padding: 0.5rem;
     border-radius: 100px;
     box-shadow: rgba(255, 102, 0, 0.705) 0px 1px 4px;
@@ -106,12 +108,12 @@
     text-align: center;
 }
 .resume:hover{
-    background-color: #ff6600;
+    background-color: #ff7621;
     color: black;
 }
 .wave{
     width: 100%;
-    height: 40px;
+    height: 150px;
 }
 .navbarButton{
     display: flex;
@@ -120,146 +122,82 @@
     font-size:x-large;
     font-family: 'Concert One', cursive;
 }
-@media only screen and (max-width: 1850px) {
-    .wave{
-        width: 100%;
-        /* margin-top: -10rem; */
+
+@media only screen and (max-width: 1180px) {
+    .portfolioLogo{
+        font-size: 1.5rem;
+        font-family: 'Kodchasan', sans-serif;
+    }
+    .navbarButton{
+        display: none;
     }
     .mobile{
         display: block;
     }
-}
-@media only screen and (max-width: 1470px) {
-    .navbarButton{
-        display: none;
-    }
     .main{
-        padding-left: 2rem;
-        padding-right: 2rem;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        /* background-color: #ff7621; */
         background-color: black;
-    }
-}
-@media only screen and (max-width: 1374px) {
-    .navbarButton{
-        display: none;
-    }
-    .main{
-        padding-left: 2rem;
-        padding-right: 2rem;
-        background-color: black;
+        color: #ff7621;
+        z-index: 10;
     }
     .wave{
         width: 100%;
-        /* margin-top: -8rem; */
+        margin-top: -1px;
     }
 }
-@media only screen and (max-width: 1110px) {
-    .navbarButton{
-        display: none;
-    }
-    .main{
-        padding-left: 2rem;
-        padding-right: 2rem;
-        background-color: black;
-    }
-    .wave{
-        width: 100%;
-        /* margin-top: -7rem; */
-    }
-    .portfolioLogo{
-        font-size: 3vw;
-    }
-}
-@media only screen and (max-width: 900px) {
-    .navbarButton{
-        display: none;
-    }
-    .main{
-        padding-left: 2rem;
-        padding-right: 2rem;
-        background-color: black;
-    }
-    .wave{
-        width: 100%;
-        /* margin-top: -10rem; */
-    }
-}
-@media only screen and (max-width: 852px) {
-    .navbarButton{
-        display: none;
-    }
-    .main{
-        padding-left: 2rem;
-        padding-right: 2rem;
-        background-color: black;
-    }
-    .wave{
-        width: 100%;
-        /* height: 80px; */
-        /* margin-top: -4rem; */
-    }
-}
-@media only screen and (max-width: 668px) {
-    .navbarButton{
-        display: none;
-    }
-    .main{
-        padding-left: 2rem;
-        padding-right: 2rem;
-        background-color:black;
-    }
-    .portfolioLogo{
-        font-size: 4vw;
-    }
-    .wave{
-        width: 100%;
-        /* margin-top: -3rem; */
-    }
-}
-@media only screen and (max-width: 620px) {
-    .navbarButton{
-        display: none;
-    }
-    .main{
-        padding-left: 2rem;
-        padding-right: 2rem;
-        background-color:black;
-    }
-    .portfolioLogo{
-        font-size: 4vw;
-    }
-    .wave{
-        width: 100%;
-        height: 20px;
-        /* margin-top: -3rem; */
-    }
-}
-@media only screen and (max-width: 516px) {
-    .navbarButton{
-        display: none;
-    }
-    .main{
-        background-color:black;
-    }
-    .portfolioLogo{
-        font-size: 5vw;
-    }
-    .wave{
-        width: 100%;
-        /* margin-top: -2rem; */
-    }
-}
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 768px) {
     .main{
         display: flex;
         justify-content: space-between;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        /* background-color: #ff6600; */
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        /* background-color: #ff7621; */
         background-color: black;
-        color: #ff6600;
+        color: #ff7621;
         z-index: 10;
+    }
+    .wave{
+        width: 100%;
+        height: 80px;
+        margin-top: -1px;
+    }
+    .portfolioLogo{
+        font-size: 4vw;
+        padding-top: 0.5rem;
+        font-family: 'Kodchasan', sans-serif;
+    }
+}
+@media only screen and (max-width: 548px) {
+    .main{
+        display: flex;
+        justify-content: center;
+        gap: 30%;
+        margin: 0%;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 2rem;
+        padding-right: 0.5rem;
+        /* background-color: #ff7621; */
+        background-color: black;
+        color: #ff7621;
+        z-index: 10;
+    }
+    .wave{
+        /* width: 100%; */
+        /* height: 80px; */
+        margin-top: -1px;
+    }
+    .portfolioLogo{
+        font-size: 4vw;
+        padding-top: 0.5rem;
+        font-family: 'Kodchasan', sans-serif;
     }
 }

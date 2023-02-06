@@ -1,5 +1,8 @@
 .video{
     text-align: center;
+    padding: 0;
+    width: 70%;
+    margin: auto;
 }
 .main{
     width: 100%;
@@ -9,8 +12,41 @@
     height: 20vw;
     margin: auto;
 }
-.imginner{
+.imginner1{
     display: none;
+}
+.imginner2{
+    display: none;
+}
+.imginner3{
+    display: none;
+}
+@media only screen and (max-width: 1779px) {
+    .main{
+        width: 100%;
+        /* margin: auto; */
+    }
+    .video{
+        display: none;
+    }
+    .imginner1{
+        display: block;
+        text-align: center;
+    }
+    .imginner2{
+        display: block;
+        text-align: center;
+    }
+    .imginner3{
+        display: block;
+        text-align: center;
+    }
+    .imginnerand1{
+        width: 80%;
+    }
+    .imginnerand2{
+        width: 40%;
+    }
 }
 @media only screen and (max-width: 414px) {
     .main{
@@ -19,6 +55,9 @@
     }
     .video{
         display: none;
+    }
+    .imginnerand1{
+        width: 100%;
     }
     .imginner{
         display: block;
