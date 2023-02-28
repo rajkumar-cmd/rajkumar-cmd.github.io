@@ -107,8 +107,26 @@
     height: 2rem;
     text-align: center;
 }
+.resume1{
+    background-color: black;
+    color: #ff7621;
+    padding: 0.5rem;
+    border-radius: 100px;
+    box-shadow: rgba(255, 102, 0, 0.705) 0px 1px 4px;
+    cursor: pointer;
+    width: 9rem;
+    height: 2rem;
+    text-align: center;
+}
+.resume1:hover{
+    background-color: #ff7621;
+    color: black;
+}
 .resume:hover{
     background-color: #ff7621;
+    color: black;
+}
+.resume1:hover .anchor1{
     color: black;
 }
 .resume:hover .anchor{
@@ -139,6 +157,13 @@
     }
     .mobile{
         display: block;
+        display: flex;
+    }
+    .anchor1{
+        text-decoration: none;
+        color: #ff7621;
+        font-family: 'Concert One', cursive;
+        font-size: 1.5rem;
     }
 }
 @media only screen and (max-width: 1180px) {
@@ -148,9 +173,6 @@
     }
     .navbarButton{
         display: none;
-    }
-    .mobile{
-        display: block;
     }
     .main{
         display: flex;
@@ -196,26 +218,38 @@
 @media only screen and (max-width: 548px) {
     .main{
         display: flex;
-        justify-content: center;
-        gap: 30%;
-        margin: 0%;
+        justify-content: space-between;
+        /* gap: 30%; */
+        /* margin: 0%; */
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
-        padding-left: 2rem;
+        padding-left: 0.5rem;
         padding-right: 0.5rem;
         /* background-color: #ff7621; */
         background-color: black;
         color: #ff7621;
         z-index: 10;
     }
-    .wave{
-        /* width: 100%; */
-        /* height: 80px; */
+    /* .wave{
         margin-top: -1px;
-    }
+    } */
     .portfolioLogo{
         font-size: 4vw;
         padding-top: 0.5rem;
         font-family: 'Kodchasan', sans-serif;
+    }
+    .resume1{
+        background-color: black;
+        color: #ff7621;
+        padding: 0.5rem;
+        border-radius: 100px;
+        box-shadow: rgba(255, 102, 0, 0.705) 0px 1px 4px;
+        cursor: pointer;
+        width: 5rem;
+        height: 1.4rem;
+        text-align: center;
+    }
+    .anchor1{
+        font-size: 1rem;
     }
 }

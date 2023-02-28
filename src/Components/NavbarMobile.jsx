@@ -39,7 +39,7 @@ export default function TemporaryDrawer() {
         onKeyDown={toggleDrawer(anchor, false)}
       >
         <List>
-          {['Home', 'About Me', 'Skills', 'Projects','Contact','Resume'].map((text) => (
+          {['Home', 'About Me', 'Skills', 'Projects','Contact'].map((text) => (
             <Link activeClass="active" to={text} smooth={true} duration={1000}>
             <ListItem key={text} disablePadding>
               <ListItemButton>
@@ -49,7 +49,6 @@ export default function TemporaryDrawer() {
                   {text === 'Skills' ? <Icon as={GiSkills} boxSize={25} color={"#ff6600"}/>:""}
                   {text === 'Projects' ? <Icon as={AiOutlineFundProjectionScreen} boxSize={25} color={"#ff6600"}/>:""}
                   {text === 'Contact' ? <Icon as={FiMail} boxSize={25} color={"#ff6600"}/>:""}
-                  {text === 'Resume' ? <Icon as={AiFillIdcard} boxSize={25} color={"#ff6600"}/>:""}
                 </ListItemIcon>
                 <h2 className={style.text} style={{}}>{text}</h2>
               </ListItemButton>

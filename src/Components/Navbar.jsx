@@ -45,11 +45,16 @@ const Navbar = () => {
           </Link>
           <div className={Style.resume} onClick={open}>
               <div><a href={Rajkumar_Pradhan_Resume} download className={Style.anchor}>Resume</a></div>
-            </div>
+          </div>
           </div>
         </div>
         <div className={Style.mobile}>
+          <div className={Style.resume1} onClick={open}>
+              <div><a href={Rajkumar_Pradhan_Resume} download className={Style.anchor1}>Resume</a></div>
+          </div>
+          <div>
           <NavbarMobile/>
+          </div>
         </div>
       </div>
       {/* <div>
