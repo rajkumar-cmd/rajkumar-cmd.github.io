@@ -28,8 +28,8 @@
     text-align: center;
     margin-bottom: 0.5rem;
     font-size: 1.5rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
 }
 .tabtop{
     font-size: xx-large;
@@ -79,15 +79,18 @@
     padding-bottom: 2rem;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
-.fouthPro{
+.fifthPro{
     display: flex;
-    flex-wrap:wrap-reverse;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-bottom: 2rem;
 }
 .firstleftText{
+    margin: auto;
     margin-top: 5rem;
+    width: 98%;
     text-align: center;
 }
 .firstrightText{

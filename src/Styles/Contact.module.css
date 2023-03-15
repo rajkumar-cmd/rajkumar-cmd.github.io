@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500&display=swap');
 .contact{
     z-index: 10;
     background-color: #ff6600;
+    font-family: 'Kodchasan', sans-serif;
 }
 .contactText{
     font-family: 'Kodchasan';

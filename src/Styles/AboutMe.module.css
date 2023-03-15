@@ -181,6 +181,10 @@
     .mainTextTop{
         font-size: 1.5rem;
     }
+    .mainText{
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
     .AboutMe{
         padding-top: 2rem;
     }
