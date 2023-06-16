@@ -7,9 +7,8 @@ import { AiFillGithub, AiOutlineGlobal } from "react-icons/ai"
 import NarviLaptop from "../assets/NarviLaptop.webp"
 import Bechef from "../assets/Bechef.webp"
 import twopunchLaptop from "../assets/twopunchLaptop.webp"
-import Naukri from "../assets/naukri.webp"
+import Autotron from "../assets/Autotron.png"
 import Gadget from "../assets/gadget.webp"
-// import LaptopNarvi from './LaptopNarvi';
 
 const Projects = () => {
     AOS.init();
@@ -21,6 +20,29 @@ const Projects = () => {
                 </div>
             </div>
             <div>
+                <div className={style.secondPro}>
+                    <div className={style.firstrightText}>
+                        <img src={Autotron} alt="" className={style.img} />
+                    </div>
+                    <div className={style.pc} data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div className={style.firstleftText}>
+                            <h2 className={style.mainProjectText}>Autotron Electronics Website <br /> (Real World Website)</h2>
+                            <p className={style.subProjectText}>( Collaborative Project co-created and designed along with <br />3
+                                fellow developers as a part of a freelance project. )</p>
+                            <p className={style.subProjectText}>Autotron store's website offers real-world electronics projects<br /> and
+                                a blog,that allows people to select their desired<br /> project type and
+                                explore informative electronics articles.</p>
+                            <p className={style.subProjectText}>
+                                <h4 className={style.subProjectTextMain}>Areas of responsibility:- </h4> Built Home and Blog Page | Implemented Responsiveness<br /> | Built Navbar and Footer | Worked on Backend using Nextjs
+                            </p>
+                            <p className={style.subProjectText}><h4 className={style.subProjectTextMain}>Tech Stack Used:- </h4> React | CSS | Tailwind | Typescript | Nextjs 13 | Next.js 13 for Backend</p>
+                            <br />
+                            <div className={style.linkMain}>
+                                <a href="https://www.autotron.tech/" target="_blank"><button className={style.linkMainButton}><Icon as={AiOutlineGlobal} boxSize={30} /></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className={style.firstPro}>
                     <div className={style.pc} data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out">
                         <div className={style.firstleftText}>
@@ -84,7 +106,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <br />
-                <div className={style.secondPro}>
+                <div className={style.lastPro}>
                     <div className={style.firstrightText}>
                         <img src={twopunchLaptop} alt="" className={style.img} />
                     </div>
@@ -104,25 +126,6 @@ const Projects = () => {
                                 <a href="https://admirable-raindrop-842e4c.netlify.app/" target="_blank"><button className={style.linkMainButton}><Icon as={AiOutlineGlobal} boxSize={30} /></button></a>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <br />
-                <div className={style.fifthPro}>
-                    <div className={style.pc} data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <div className={style.firstleftText}>
-                            <h2 className={style.mainProjectText}>Naukri Website Clone</h2>
-                            <p className={style.subProjectText}>( Individual Project )</p>
-                            <p className={style.subProjectText}>It is a job searching website where a user can <br /> search for the jobs he is interested in.</p>
-                            <p className={style.subProjectText}><h4 className={style.subProjectTextMain}>Tech Stack Used:- </h4> HTML | CSS | JavaScript</p>
-                            <br />
-                            <div className={style.linkMain}>
-                                <a href="https://github.com/rajkumar-cmd/Naukri.com-Clone" target="_blank"><button className={style.linkMainButton}><Icon as={AiFillGithub} boxSize={30} /></button></a>
-                                <a href="https://dashing-kelpie-f02b5b.netlify.app/" target="_blank"><button className={style.linkMainButton}><Icon as={AiOutlineGlobal} boxSize={30} /></button></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={style.firstrightText}>
-                        <img src={Naukri} alt="" className={style.img} />
                     </div>
                 </div>
             </div>

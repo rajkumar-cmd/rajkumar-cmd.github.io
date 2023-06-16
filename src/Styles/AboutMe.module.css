@@ -50,6 +50,10 @@
     width: 90%;
     margin: auto;
 }
+.experienceText{
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
 .mainGit{
     display: flex;
     flex-wrap: wrap;
@@ -113,6 +117,9 @@
         font-size: 2rem;
         padding-bottom: 5rem;
     }
+    .experienceText{
+        font-size: 1.5rem;
+    }
     .AboutMe{
         padding-top: 2rem;
     }
@@ -127,7 +134,6 @@
         padding-top: 1rem;
     }
     .AboutMeDetailsEdu{
-        /* margin: 0; */
         width: 80%;
         margin: auto;
         padding-right: 1.5rem;
@@ -135,7 +141,6 @@
         font-size: 1.2rem;
     }
     .gittop{
-        /* text-align: "center"; */
         width: 100%;
         margin: auto;
     }
@@ -185,6 +190,10 @@
         font-size: 3rem;
         padding-bottom: 2rem;
     }
+    .experienceText{
+        font-size: 2rem;
+        padding-bottom: 0.8rem;
+    }
     .AboutMe{
         padding-top: 2rem;
     }
@@ -196,15 +205,12 @@
         padding-top: 1rem;
     }
     .AboutMeDetailsEdu{
-        /* margin: 0; */
         width: 80%;
         margin: auto;
-        /* padding-right: 1.5rem; */
         padding-left: 1.5rem;
         font-size: 0.8rem;
     }
     .gittop{
-        /* text-align: "center"; */
         width: 100%;
         margin: auto;
     }
@@ -252,21 +258,22 @@
         padding-top: 1rem;
     }
     .AboutMeDetailsEdu{
-        /* margin: 0; */
         width: 80%;
         margin: auto;
-        /* padding-right: 1.5rem; */
         padding-left: 1.5rem;
         font-size: 0.8rem;
     }
     .gittop{
-        /* text-align: "center"; */
         width: 100%;
         margin: auto;
     }
     .mainText{
         font-size: 1.3rem;
         padding-bottom: 1rem;
+    }
+    .experienceText{
+        font-size: 1rem;
+        padding-bottom: 0.4rem;
     }
     .gitstatsthree{
         width: 90%;

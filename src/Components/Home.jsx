@@ -38,17 +38,15 @@ const Home = () => {
                             Ready to move if asked. <br />
                             <div className={style.buttonAboutme}>
                                 <div className={style.buttonAboutme1}>
-                                    <Icon as={BsGithub} paddingTop={"0.5rem"} boxSize={50}/>
+                                <a href="https://github.com/rajkumar-cmd" target="_blank" style={{color:"white"}}><Icon as={BsGithub} paddingTop={"0.5rem"} boxSize={50}/></a>
                                 </div>
                                 <div className={style.buttonAboutme2}>
-                                    <Icon as={BsLinkedin} paddingTop={"0.5rem"} boxSize={50}/>
+                                <a href="https://www.linkedin.com/in/rajkumar-pradhan-9a5ba6213/" target="_blank" style={{color:"white"}}><Icon as={BsLinkedin} paddingTop={"0.5rem"} boxSize={50}/></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className={style.profilePic}>
-                        {/* <img className={style.mainPic} src={profilePhoto} alt="" /> */}
-                        {/* <img className={style.colorBack} src={colorBack} alt="" /> */}
                         <img className={style.mainProfilePic} src={profile} alt="" />
                     </div>
                 </div>

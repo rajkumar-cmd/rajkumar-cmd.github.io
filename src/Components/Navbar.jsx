@@ -1,6 +1,5 @@
 import React from 'react'
 import Style from "../Styles/Navbar.module.css"
-// import wave from "../assets/wave.png"
 import NavbarMobile from './NavbarMobile'
 import * as Scroll from 'react-scroll';
 import Rajkumar_Pradhan_Resume from "../assets/Rajkumar_Pradhan_Resume.pdf"
@@ -57,9 +56,6 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      {/* <div>
-        <img className={Style.wave} src={wave} alt="" />
-      </div> */}
     </div>
   )
 }
