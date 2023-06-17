@@ -19,6 +19,9 @@
     bottom: 49vh;
     left: 55vw;
 }
+.experienceImage{
+    width: 5%;
+}
 .mainTextTop{
     font-size: 3rem;
 }
@@ -53,6 +56,11 @@
 .experienceText{
     font-size: 2rem;
     padding-bottom: 0.5rem;
+}
+.experienceflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .mainGit{
     display: flex;
@@ -116,6 +124,9 @@
     .mainText{
         font-size: 2rem;
         padding-bottom: 5rem;
+    }
+    .experienceImage{
+        width: 10%;
     }
     .experienceText{
         font-size: 1.5rem;
@@ -189,6 +200,9 @@
     .mainText{
         font-size: 3rem;
         padding-bottom: 2rem;
+    }
+    .experienceImage{
+        width: 10%;
     }
     .experienceText{
         font-size: 2rem;
@@ -274,6 +288,9 @@
     .experienceText{
         font-size: 1rem;
         padding-bottom: 0.4rem;
+    }
+    .experienceImage{
+        width: 15%;
     }
     .gitstatsthree{
         width: 90%;

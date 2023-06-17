@@ -35,7 +35,7 @@ const Projects = () => {
                             <p className={style.subProjectText}>
                                 <h4 className={style.subProjectTextMain}>Areas of responsibility:- </h4> Built Home and Blog Page | Implemented Responsiveness<br /> | Built Navbar and Footer | Worked on Backend using Nextjs
                             </p>
-                            <p className={style.subProjectText}><h4 className={style.subProjectTextMain}>Tech Stack Used:- </h4> React | CSS | Tailwind | Typescript | Nextjs 13 | Next.js 13 for Backend</p>
+                            <p className={style.subProjectText}><h4 className={style.subProjectTextMain}>Tech Stack Used:- </h4> React | CSS | Tailwind | Typescript | Nextjs 13 | MongoDB Atlas</p>
                             <br />
                             <div className={style.linkMain}>
                                 <a href="https://www.autotron.tech/" target="_blank"><button className={style.linkMainButton}><Icon as={AiOutlineGlobal} boxSize={30} /></button></a>

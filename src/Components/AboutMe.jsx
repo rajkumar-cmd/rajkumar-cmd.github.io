@@ -3,6 +3,7 @@ import style from "../Styles/AboutMe.module.css"
 import 'aos/dist/aos.css';
 import { Icon } from '@chakra-ui/react'
 import { AiFillGithub } from "react-icons/ai"
+import Autotron from "../assets/autotron-logo-light.png"
 import GitHubCalendar from 'react-github-calendar';
 
 const AboutMe = () => {
@@ -24,11 +25,12 @@ const AboutMe = () => {
                 <h1 className={style.mainTextTop}>Experience</h1>
                 <h2 className={style.experienceText}>&diams; Freelance Full Stack Web Developer (March/2023-June/2023)</h2>
                 <h2 className={style.experienceText}>(at Autotron Electronics)</h2>
+                <a href="https://www.autotron.tech/" target="_blank"><img src={Autotron}  className={style.experienceImage}/></a>
                 <p className={style.mainTextTopSmall}>
-                 After the completion of my training at Masai School I did a freelance job at 
-                 Autotron electronics as a Full stack web developer to hone my skills in real-world
-                 and contributed in creating the organization's main webside from scratch and managing
-                 the website.
+                    After the completion of my training at Masai School I did a freelance job at
+                    Autotron electronics as a Full stack web developer to hone my skills in real-world
+                    and contributed in creating the organization's main webside from scratch and managing
+                    the website.
                 </p>
             </div>
             <div className={style.gittop}>
