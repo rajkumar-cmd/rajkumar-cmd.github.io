@@ -7,7 +7,7 @@ import { AiFillGithub, AiOutlineGlobal } from "react-icons/ai"
 import NarviLaptop from "../assets/NarviLaptop.webp"
 import Bechef from "../assets/Bechef.webp"
 import twopunchLaptop from "../assets/twopunchLaptop.webp"
-import Autotron from "../assets/Autotron.png"
+import Autotron from "../assets/Autotron.webp"
 import Gadget from "../assets/gadget.webp"
 
 const Projects = () => {
